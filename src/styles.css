@@ -176,7 +176,7 @@ body {
 .nav-links {
   display: none;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 @media (min-width: 1024px) {
@@ -190,7 +190,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s ease;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: var(--radius);
   position: relative;
 }
@@ -386,6 +386,10 @@ body {
 .hero {
   padding: 3rem 1.5rem 6rem;
   background: linear-gradient(135deg, var(--background) 0%, rgba(210, 230, 255, 0.3) 50%, var(--background) 100%);
+}
+
+.dark .hero {
+  background: #313338;
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -445,7 +449,11 @@ body {
 
 .hero-description {
   font-size: 1.25rem;
-  color: var(--secondary);
+  color: var(--foreground);
+}
+
+.dark .hero-description {
+  color: var(--foreground);
   line-height: 1.6;
   max-width: 48rem;
   margin: 0 auto;

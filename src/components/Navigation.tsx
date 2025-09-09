@@ -12,7 +12,7 @@ const Navigation = () => {
           <div className="logo-icon">
             <Heart className="logo-heart" />
           </div>
-          <span className="logo-text">hoop</span>
+          <span className="logo-text">Hoop</span>
           <span className="logo-tagline">mental wellness</span>
         </div>
         
@@ -27,19 +27,13 @@ const Navigation = () => {
             Support Groups
           </a>
           <a href="#" className="nav-link">
-            Crisis Help
-          </a>
-          <a href="#" className="nav-link">
             About
           </a>
         </div>
       </div>
       
       <div className="nav-right">
-        <div className="crisis-hotline">
-          <span className="hotline-text">Crisis? Call</span>
-          <a href="tel:988" className="hotline-number">988</a>
-        </div>
+  {/* Crisis hotline removed for cleaner navbar */}
         <ThemeToggle />
         <button className="button button-ghost">
           Sign In
@@ -62,7 +56,6 @@ const Navigation = () => {
             <a href="#" className="mobile-nav-link">Community</a>
             <a href="#" className="mobile-nav-link">Resources</a>
             <a href="#" className="mobile-nav-link">Support Groups</a>
-            <a href="#" className="mobile-nav-link">Crisis Help</a>
             <a href="#" className="mobile-nav-link">About</a>
             <div className="mobile-menu-buttons">
               <button className="button button-ghost w-full">Sign In</button>
